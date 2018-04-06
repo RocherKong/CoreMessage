@@ -45,3 +45,21 @@
             };
         }
 ```
+
+```json
+Response body
+{
+  "IsSuccess": true,
+  "ErrorCode": "00000",
+  "Message": null,
+  "Body": {
+    "TotalRecord": 0,
+    "List": []
+  }
+}
+Response headers
+ content-type: application/json; charset=utf-8 
+ date: Fri, 06 Apr 2018 13:28:05 GMT 
+ server: Kestrel 
+ transfer-encoding: chunked 
+```
