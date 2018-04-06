@@ -13,8 +13,10 @@
 - GetByIdResponse
 - ResponseMessageWrap
 
-```c# Use Bara ORM
- public ResponseMessageWrap<GetByPageResponse<B_Book>> Query(QueryRequest reqMsg)
+```c# 
+* Use Bara ORM
+[HttpPost]
+ public ResponseMessageWrap<GetByPageResponse<B_Book>> Query([FromBody]QueryRequest reqMsg)
         {
             var list = baraMapper.Query<B_Book>(new Bara.Core.Context.RequestContext
             {
