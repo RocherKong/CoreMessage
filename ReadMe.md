@@ -47,6 +47,16 @@
 ```
 
 ```json
+Request Parameters
+{
+  "PageIndex": 0,
+  "PageSize": 0,
+  "Header": {
+    "Operator": 0,
+    "IP": "string"
+  }
+}
+
 Response body
 {
   "IsSuccess": true,
@@ -57,9 +67,5 @@ Response body
     "List": []
   }
 }
-Response headers
- content-type: application/json; charset=utf-8 
- date: Fri, 06 Apr 2018 13:28:05 GMT 
- server: Kestrel 
- transfer-encoding: chunked 
+
 ```
