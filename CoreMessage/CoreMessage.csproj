@@ -6,6 +6,7 @@
     <Authors>Rocher</Authors>
     <Company>i4ta</Company>
     <Description>Message For Http Request/Response</Description>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

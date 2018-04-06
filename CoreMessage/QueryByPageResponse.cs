@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Core.Message
 {
-    public class GetByPageResponse<TItem> : QueryResponse<TItem>
+    public class QueryByPageResponse<TItem> : QueryResponse<TItem>
     {
         public long TotalRecord { get; set; }
     }

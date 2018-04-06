@@ -7,10 +7,11 @@ using System.Threading.Tasks;
 
 namespace Core.Message
 {
-    public class GetByPageRequest : RequestMessage
+    public class QueryByPageRequest : RequestMessage
     {
+        [Range(1, 9999999999999)]
         public int PageIndex { get; set; } = 1;
-        [Range(1, 1000)]
+        [Range(1, 9999999999999)]
         public int PageSize { get; set; } = 10;
     }
 }
