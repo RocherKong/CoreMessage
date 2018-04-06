@@ -5,11 +5,10 @@ using System.Text;
 
 namespace Core.Message
 {
-    public class ResponseMessageWrap<T> //where T : new()
+    public class ResponseMessageWrap<T>
     {
         public ResponseMessageWrap()
         {
-            //Body = new T();
             IsSuccess = true;
             ErrorCode = "00000";
         }

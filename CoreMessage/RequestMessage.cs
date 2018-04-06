@@ -22,10 +22,6 @@ namespace Core.Message
     public class RequestHeader
     {
         /// <summary>
-        /// 渠道
-        /// </summary>
-        public String Channel { get; set; }
-        /// <summary>
         /// 操作人
         /// </summary>
         public long Operator { get; set; }
