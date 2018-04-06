@@ -2,19 +2,19 @@
 # Request
 - RequestMessage
 - GetByIdRequest
-- GetByIdRequest<T>
+- GetByIdRequest&lt;T&gt;
 - IdRequest
-- IdRequest<T>
+- IdRequest&lt;T&gt;
 - NoneRequest
 - QueryByPageRequest
 
 # Response
 - ResponseMessage
-- QueryResponse<TItem>
+- QueryResponse&lt;TItem&gt;
 - QueryByPageResponse
-- QueryByPageResponse<TItem>
-- GetByIdResponse<T>
-- ResponseMessageWrap<T>
+- QueryByPageResponse&lt;TItem&gt;
+- GetByIdResponse&lt;T&gt;
+- ResponseMessageWrap&lt;T&gt;
 
 ```c# 
 * Use Bara ORM
